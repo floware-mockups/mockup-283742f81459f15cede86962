@@ -384,5 +384,14 @@
   "theme": {
     "palette": "blu-notte",
     "fonts": "istituzionale"
-  }
+  },
+  "custom": [
+    {
+      "name": "TabellaRigheAlternate",
+      "title": "Tabella con righe evidenziate",
+      "description": "Vista aggiuntiva dei dati con tre sfondi del tema alternati e testo a contrasto.",
+      "role": "section",
+      "position": "bottom"
+    }
+  ]
 }
