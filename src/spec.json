@@ -310,7 +310,7 @@
       "columns": [
         "Tipologia violazione",
         "Categoria",
-        "Ricorsi",
+        "Totale violazioni",
         "Organo più frequente",
         "In istruttoria"
       ],
@@ -375,7 +375,7 @@
       "form": [
         "Tipologia violazione",
         "Categoria",
-        "Ricorsi",
+        "Totale violazioni",
         "Organo più frequente",
         "In istruttoria"
       ]
@@ -392,6 +392,13 @@
       "description": "Vista aggiuntiva con due sfondi del tema alternati e testo a contrasto.",
       "role": "section",
       "position": "bottom"
+    },
+    {
+      "name": "AggiornaTotaliViolazioni",
+      "title": "Conteggio automatico delle violazioni",
+      "description": "Sincronizza i totali per tipologia contando le righe della raccolta ricorsi.",
+      "role": "section",
+      "position": "top"
     }
   ]
 }
