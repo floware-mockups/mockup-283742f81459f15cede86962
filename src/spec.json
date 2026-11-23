@@ -388,8 +388,8 @@
   "custom": [
     {
       "name": "TabellaRigheAlternate",
-      "title": "Tabella con righe evidenziate",
-      "description": "Vista aggiuntiva dei dati con tre sfondi del tema alternati e testo a contrasto.",
+      "title": "Tabella con righe alternate",
+      "description": "Vista aggiuntiva con due sfondi del tema alternati e testo a contrasto.",
       "role": "section",
       "position": "bottom"
     }
