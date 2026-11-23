@@ -425,7 +425,7 @@
       "description": "Totale dinamico delle sanzioni dei ricorsi con stato diverso da Definito.",
       "role": "section",
       "pageId": "raccolta-ricorsi",
-      "position": "metrics"
+      "position": "bottom"
     }
   ],
   "navigation": "top"
