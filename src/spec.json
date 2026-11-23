@@ -1,0 +1,388 @@
+{
+  "title": "Gestione dei ricorsi per violazione e organo accertatore",
+  "description": "Prototipo per raccogliere e consultare ricorsi, raggruppati per tipologia di violazione e organo accertatore. Gli enti e i casi mostrati sono inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Quadro ricorsi",
+      "description": "Panoramica della raccolta e delle attività da gestire.",
+      "metrics": [
+        {
+          "label": "Ricorsi registrati",
+          "value": "128"
+        },
+        {
+          "label": "In istruttoria",
+          "value": "34"
+        },
+        {
+          "label": "Organi accertatori",
+          "value": "12"
+        },
+        {
+          "label": "Tipologie di violazione",
+          "value": "8"
+        }
+      ],
+      "columns": [
+        "Periodo",
+        "Ricorsi ricevuti",
+        "In istruttoria",
+        "Definiti"
+      ],
+      "rows": [
+        [
+          "Gennaio",
+          "26",
+          "9",
+          "17"
+        ],
+        [
+          "Febbraio",
+          "31",
+          "11",
+          "20"
+        ],
+        [
+          "Marzo",
+          "38",
+          "8",
+          "30"
+        ],
+        [
+          "Aprile",
+          "33",
+          "6",
+          "27"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "raccolta-ricorsi",
+      "title": "Raccolta ricorsi",
+      "description": "Ricerca e filtro per tipologia, organo accertatore, stato e periodo. Le righe sono esempi inventati.",
+      "metrics": [
+        {
+          "label": "Ricorsi nel registro",
+          "value": "128"
+        },
+        {
+          "label": "Tipologie disponibili",
+          "value": "8"
+        }
+      ],
+      "columns": [
+        "Numero pratica",
+        "Tipologia violazione",
+        "Organo accertatore",
+        "Comune",
+        "Data ricezione",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "R-2025-001",
+          "Sosta in area riservata",
+          "Comune di Lumariva",
+          "Lumariva",
+          "08/01/2025",
+          "In istruttoria"
+        ],
+        [
+          "R-2025-002",
+          "Superamento limite di velocità",
+          "Polizia Stradale di Ventaluce",
+          "Ventaluce",
+          "09/01/2025",
+          "Da assegnare"
+        ],
+        [
+          "R-2025-003",
+          "Mancata revisione del veicolo",
+          "Carabinieri di Selvariva",
+          "Selvariva",
+          "10/01/2025",
+          "Definito"
+        ],
+        [
+          "R-2025-004",
+          "Accesso non autorizzato in zona regolamentata",
+          "Comune di Nubilago",
+          "Nubilago",
+          "12/01/2025",
+          "In istruttoria"
+        ],
+        [
+          "R-2025-005",
+          "Sosta in area riservata",
+          "Comune di Fontelume",
+          "Fontelume",
+          "14/01/2025",
+          "Da assegnare"
+        ],
+        [
+          "R-2025-006",
+          "Mancato uso dei dispositivi di sicurezza",
+          "Polizia Stradale di Lumariva",
+          "Lumariva",
+          "16/01/2025",
+          "In istruttoria"
+        ],
+        [
+          "R-2025-007",
+          "Superamento limite di velocità",
+          "Carabinieri di Ventaluce",
+          "Ventaluce",
+          "18/01/2025",
+          "Definito"
+        ],
+        [
+          "R-2025-008",
+          "Circolazione in area regolamentata",
+          "Comune di Selvariva",
+          "Selvariva",
+          "20/01/2025",
+          "In istruttoria"
+        ],
+        [
+          "R-2025-009",
+          "Mancata revisione del veicolo",
+          "Comune di Nubilago",
+          "Nubilago",
+          "22/01/2025",
+          "Da assegnare"
+        ],
+        [
+          "R-2025-010",
+          "Sosta in area riservata",
+          "Carabinieri di Fontelume",
+          "Fontelume",
+          "24/01/2025",
+          "Definito"
+        ],
+        [
+          "R-2025-011",
+          "Superamento limite di velocità",
+          "Comune di Lumariva",
+          "Lumariva",
+          "26/01/2025",
+          "In istruttoria"
+        ],
+        [
+          "R-2025-012",
+          "Mancato uso dei dispositivi di sicurezza",
+          "Carabinieri di Selvariva",
+          "Selvariva",
+          "28/01/2025",
+          "Da assegnare"
+        ]
+      ],
+      "form": [
+        "Numero pratica",
+        "Tipologia violazione",
+        "Organo accertatore",
+        "Comune",
+        "Data ricezione",
+        "Stato"
+      ]
+    },
+    {
+      "id": "organi-accertatori",
+      "title": "Organi accertatori",
+      "description": "Consulta i ricorsi raggruppati per ente accertatore e confronta le tipologie ricorrenti. Enti e valori sono inventati.",
+      "metrics": [
+        {
+          "label": "Organi censiti",
+          "value": "12"
+        },
+        {
+          "label": "Ricorsi associati",
+          "value": "128"
+        }
+      ],
+      "columns": [
+        "Organo accertatore",
+        "Categoria",
+        "Comune di riferimento",
+        "Ricorsi",
+        "Tipologia più frequente",
+        "Pratiche aperte"
+      ],
+      "rows": [
+        [
+          "Comune di Lumariva",
+          "Comune",
+          "Lumariva",
+          "18",
+          "Sosta in area riservata",
+          "7"
+        ],
+        [
+          "Comune di Ventaluce",
+          "Comune",
+          "Ventaluce",
+          "14",
+          "Superamento limite di velocità",
+          "5"
+        ],
+        [
+          "Comune di Nubilago",
+          "Comune",
+          "Nubilago",
+          "12",
+          "Accesso non autorizzato in zona regolamentata",
+          "4"
+        ],
+        [
+          "Comune di Selvariva",
+          "Comune",
+          "Selvariva",
+          "11",
+          "Circolazione in area regolamentata",
+          "3"
+        ],
+        [
+          "Comune di Fontelume",
+          "Comune",
+          "Fontelume",
+          "9",
+          "Mancata revisione del veicolo",
+          "2"
+        ],
+        [
+          "Polizia Stradale di Ventaluce",
+          "Polizia Stradale",
+          "Ventaluce",
+          "16",
+          "Superamento limite di velocità",
+          "6"
+        ],
+        [
+          "Polizia Stradale di Lumariva",
+          "Polizia Stradale",
+          "Lumariva",
+          "13",
+          "Mancato uso dei dispositivi di sicurezza",
+          "4"
+        ],
+        [
+          "Carabinieri di Selvariva",
+          "Carabinieri",
+          "Selvariva",
+          "15",
+          "Mancata revisione del veicolo",
+          "5"
+        ],
+        [
+          "Carabinieri di Fontelume",
+          "Carabinieri",
+          "Fontelume",
+          "10",
+          "Sosta in area riservata",
+          "3"
+        ]
+      ],
+      "form": [
+        "Organo accertatore",
+        "Categoria",
+        "Comune di riferimento",
+        "Ricorsi",
+        "Tipologia più frequente",
+        "Pratiche aperte"
+      ]
+    },
+    {
+      "id": "tipologie-violazione",
+      "title": "Tipologie di violazione",
+      "description": "Raggruppa i ricorsi per tipologia e individua gli organi accertatori coinvolti.",
+      "metrics": [
+        {
+          "label": "Tipologie catalogate",
+          "value": "8"
+        },
+        {
+          "label": "Ricorsi classificati",
+          "value": "128"
+        }
+      ],
+      "columns": [
+        "Tipologia violazione",
+        "Categoria",
+        "Ricorsi",
+        "Organo più frequente",
+        "In istruttoria"
+      ],
+      "rows": [
+        [
+          "Sosta in area riservata",
+          "Sosta",
+          "27",
+          "Comuni",
+          "8"
+        ],
+        [
+          "Superamento limite di velocità",
+          "Circolazione",
+          "25",
+          "Polizia Stradale",
+          "7"
+        ],
+        [
+          "Mancata revisione del veicolo",
+          "Requisiti del veicolo",
+          "19",
+          "Carabinieri",
+          "5"
+        ],
+        [
+          "Accesso non autorizzato in zona regolamentata",
+          "Circolazione",
+          "16",
+          "Comuni",
+          "4"
+        ],
+        [
+          "Mancato uso dei dispositivi di sicurezza",
+          "Sicurezza stradale",
+          "14",
+          "Polizia Stradale",
+          "3"
+        ],
+        [
+          "Circolazione in area regolamentata",
+          "Circolazione",
+          "12",
+          "Comuni",
+          "3"
+        ],
+        [
+          "Sosta oltre il tempo consentito",
+          "Sosta",
+          "9",
+          "Carabinieri",
+          "2"
+        ],
+        [
+          "Documentazione di circolazione incompleta",
+          "Requisiti del veicolo",
+          "6",
+          "Carabinieri",
+          "2"
+        ]
+      ],
+      "form": [
+        "Tipologia violazione",
+        "Categoria",
+        "Ricorsi",
+        "Organo più frequente",
+        "In istruttoria"
+      ]
+    }
+  ],
+  "theme": {
+    "palette": "blu-notte",
+    "fonts": "istituzionale"
+  }
+}
