@@ -71,6 +71,10 @@
         {
           "label": "Tipologie disponibili",
           "value": "8"
+        },
+        {
+          "label": "Importo da riscuotere",
+          "value": "1.315 €"
         }
       ],
       "columns": [
@@ -79,7 +83,8 @@
         "Organo accertatore",
         "Comune",
         "Data ricezione",
-        "Stato"
+        "Stato",
+        "Importo sanzione applicata"
       ],
       "rows": [
         [
@@ -88,7 +93,8 @@
           "Comune di Lumariva",
           "Lumariva",
           "08/01/2025",
-          "In istruttoria"
+          "In istruttoria",
+          "120 €"
         ],
         [
           "R-2025-002",
@@ -96,7 +102,8 @@
           "Polizia Stradale di Ventaluce",
           "Ventaluce",
           "09/01/2025",
-          "Da assegnare"
+          "Da assegnare",
+          "180 €"
         ],
         [
           "R-2025-003",
@@ -104,7 +111,8 @@
           "Carabinieri di Selvariva",
           "Selvariva",
           "10/01/2025",
-          "Definito"
+          "Definito",
+          "95 €"
         ],
         [
           "R-2025-004",
@@ -112,7 +120,8 @@
           "Comune di Nubilago",
           "Nubilago",
           "12/01/2025",
-          "In istruttoria"
+          "In istruttoria",
+          "250 €"
         ],
         [
           "R-2025-005",
@@ -120,7 +129,8 @@
           "Comune di Fontelume",
           "Fontelume",
           "14/01/2025",
-          "Da assegnare"
+          "Da assegnare",
+          "120 €"
         ],
         [
           "R-2025-006",
@@ -128,7 +138,8 @@
           "Polizia Stradale di Lumariva",
           "Lumariva",
           "16/01/2025",
-          "In istruttoria"
+          "In istruttoria",
+          "180 €"
         ],
         [
           "R-2025-007",
@@ -136,7 +147,8 @@
           "Carabinieri di Ventaluce",
           "Ventaluce",
           "18/01/2025",
-          "Definito"
+          "Definito",
+          "95 €"
         ],
         [
           "R-2025-008",
@@ -144,7 +156,8 @@
           "Comune di Selvariva",
           "Selvariva",
           "20/01/2025",
-          "In istruttoria"
+          "In istruttoria",
+          "250 €"
         ],
         [
           "R-2025-009",
@@ -152,7 +165,8 @@
           "Comune di Nubilago",
           "Nubilago",
           "22/01/2025",
-          "Da assegnare"
+          "Da assegnare",
+          "120 €"
         ],
         [
           "R-2025-010",
@@ -160,7 +174,8 @@
           "Carabinieri di Fontelume",
           "Fontelume",
           "24/01/2025",
-          "Definito"
+          "Definito",
+          "180 €"
         ],
         [
           "R-2025-011",
@@ -168,7 +183,8 @@
           "Comune di Lumariva",
           "Lumariva",
           "26/01/2025",
-          "In istruttoria"
+          "In istruttoria",
+          "95 €"
         ],
         [
           "R-2025-012",
@@ -176,7 +192,8 @@
           "Carabinieri di Selvariva",
           "Selvariva",
           "28/01/2025",
-          "Da assegnare"
+          "Da assegnare",
+          "250 €"
         ]
       ],
       "form": [
@@ -185,8 +202,10 @@
         "Organo accertatore",
         "Comune",
         "Data ricezione",
-        "Stato"
-      ]
+        "Stato",
+        "Importo sanzione applicata"
+      ],
+      "chartColumn": 5
     },
     {
       "id": "organi-accertatori",
@@ -399,6 +418,14 @@
       "description": "Sincronizza i totali per tipologia contando le righe della raccolta ricorsi.",
       "role": "section",
       "position": "top"
+    },
+    {
+      "name": "ImportoDaRiscuotere",
+      "title": "Importo da riscuotere",
+      "description": "Totale dinamico delle sanzioni dei ricorsi con stato diverso da Definito.",
+      "role": "section",
+      "pageId": "raccolta-ricorsi",
+      "position": "metrics"
     }
   ]
 }
