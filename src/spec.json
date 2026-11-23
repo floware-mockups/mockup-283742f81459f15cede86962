@@ -427,5 +427,6 @@
       "pageId": "raccolta-ricorsi",
       "position": "metrics"
     }
-  ]
+  ],
+  "navigation": "top"
 }
